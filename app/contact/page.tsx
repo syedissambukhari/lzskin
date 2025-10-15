@@ -47,7 +47,7 @@ const Contact = () => {
                 title="Phone number"
                 description={
                   <div className="pt-1 flex-1">
-                    <p>Phone: +92 3438589794</p>
+                    <p>Phone: +92 3158003094</p>
                     <p>Phone (Optional): +92 3100917499</p>
                   </div>
                 }
