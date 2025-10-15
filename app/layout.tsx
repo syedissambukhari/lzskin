@@ -32,7 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-screen">
-      <body className={`${marcellus.variable} ${montserrat.variable} overflow-x-hidden`}>
+      <body
+        className={`${marcellus.variable} ${montserrat.variable} overflow-x-hidden`}
+      >
         <CursorProvider>
           <Transition />
           <Header />

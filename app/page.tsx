@@ -15,7 +15,6 @@ const Home = () => {
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row items-center h-full">
-
           {/* 🖼️ mobile image (above text, under navbar) */}
           <motion.div
             initial={{ opacity: 0, y: -40 }}
@@ -60,8 +59,8 @@ const Home = () => {
               onMouseLeave={mouseLeaveHandler}
               className="lead max-w-xl mx-auto "
             >
-              Tailored skincare solutions for a healthy complexion, offering customized
-              care for radiant skin
+              Tailored skincare solutions for a healthy complexion, offering
+              customized care for radiant skin
             </motion.p>
             <div className="flex flex-col xl:flex-row items-center gap-6 max-w-max mx-auto xl:mx-0">
               <motion.button
@@ -102,7 +101,6 @@ const Home = () => {
               />
             </motion.div>
           </div>
-
         </div>
       </div>
     </motion.section>

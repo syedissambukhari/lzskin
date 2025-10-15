@@ -54,9 +54,18 @@ const Header = () => {
         </div>
         <div className="container mx-auto flex items-center justify-between px-6">
           {/* logo */}
-          <motion.div onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler}>
+          <motion.div
+            onMouseEnter={mouseEnterHandler}
+            onMouseLeave={mouseLeaveHandler}
+          >
             <Link href="/">
-              <Image src="/assets/lzfinal.svg" width={120} height={44} priority alt="" />
+              <Image
+                src="/assets/lzfinal.svg"
+                width={120}
+                height={44}
+                priority
+                alt=""
+              />
             </Link>
           </motion.div>
           {/* mobile nav trigger */}

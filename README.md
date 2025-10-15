@@ -42,6 +42,7 @@
 - **UX:** React-Responsive, React-CountUp
 
 **Install Key Packages:**
+
 ```bash
 npm i framer-motion react-icons react-player react-responsive react-countup
 npx shadcn-ui@latest init
@@ -189,12 +190,14 @@ Next.js, React, TypeScript, TailwindCSS, Framer Motion, Shadcn-UI, Dialog, Lucid
 ## Examples & Scripts
 
 **Run locally:**
+
 ```bash
 npm install
 npm run dev
 ```
 
 **Install extra packages:**
+
 ```bash
 npm i framer-motion react-icons react-player react-responsive react-countup
 npx shadcn-ui@latest init
@@ -202,6 +205,7 @@ npx shadcn-ui@latest add dialog
 ```
 
 **Edit page:**
+
 ```tsx
 // app/page.tsx
 export default function HomePage() {
@@ -225,5 +229,6 @@ Clone, explore, and adapt it for your own business, portfolio, or learning needs
 
 ---
 
-## Happy Coding! 🎉  
+## Happy Coding! 🎉
+
 Thank you for visiting and learning!

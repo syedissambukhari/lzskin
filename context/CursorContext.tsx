@@ -28,7 +28,8 @@ const CursorProvider = ({ children }: { children: React.ReactNode[] }) => {
 
   const handleMouseMove = (e: MouseEvent) => {
     !smallViewportIsActive
-      ? (mouseX.set(e.clientX - cursor.size / 2), mouseY.set(e.clientY - cursor.size / 2))
+      ? (mouseX.set(e.clientX - cursor.size / 2),
+        mouseY.set(e.clientY - cursor.size / 2))
       : setCursor({ size: 0, background: "none" });
   };
 

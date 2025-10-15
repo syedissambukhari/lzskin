@@ -11,7 +11,10 @@ const PageTransition = ({ children }: { children: React.ReactNode }) => {
       <motion.div
         key={pathname}
         initial={{ opacity: 1 }}
-        animate={{ opacity: 0, transition: { delay: 1, duration: 1, ease: "easeIn" } }}
+        animate={{
+          opacity: 0,
+          transition: { delay: 1, duration: 1, ease: "easeIn" },
+        }}
         // w-screen h-screen fixed z-30 xl:z-40 bg-white top-0 pointer-events-none
         className="w-screen h-screen fixed z-40 bg-white top-0 pointer-events-none"
       />

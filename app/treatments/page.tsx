@@ -31,8 +31,8 @@ const Treatments = () => {
               Indulge in our Luxurious Treatments
             </h2>
             <p className="lead max-w-[600px] mx-auto xl:mx-0">
-              Tailored skincare solutions for a healthy complexion, offering customized
-              care for radiant skin
+              Tailored skincare solutions for a healthy complexion, offering
+              customized care for radiant skin
             </p>
             {/* items */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] mb-14 mx-auto xl:mx-0">
