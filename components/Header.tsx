@@ -19,9 +19,9 @@ const Header = () => {
 
   return (
     <>
-      <header className="pb-6 xl:pb-[50px] fixed z-40 w-full bg-accent-100 xl:bg-transparent">
+      <header className="pb-2 xl:pb-[50px] fixed z-40 w-full bg-accent-100 xl:bg-transparent">
         {/* top-bar */}
-        <div className="bg-secondary-100 mb-6 xl:mb-[50px] xl:h-[50px] py-4 xl:py-0">
+        <div className="bg-secondary-100 mb-2 xl:mb-[50px] xl:h-[50px] py-2 xl:py-0">
           <div className="container mx-auto h-full">
             <div className="flex items-center justify-between h-full">
               {/* phone & email */}

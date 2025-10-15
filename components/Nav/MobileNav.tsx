@@ -14,7 +14,7 @@ const MobileNav = ({ setMobileNav }: PropsType) => {
   const pathname = usePathname();
 
   return (
-    <nav className="relative flex flex-col justify-between h-full p-8">
+    <nav className="relative flex flex-col justify-between h-full p-2 sm:p-4">
       <div className="cursor-pointer text-accent" onClick={() => setMobileNav(false)}>
         <IoCloseOutline className="text-4xl" />
       </div>
@@ -23,9 +23,9 @@ const MobileNav = ({ setMobileNav }: PropsType) => {
           <Link
             href={link.href}
             key={index}
-            className={`${
-              pathname === link.href && "border-b-2 border-accent-100"
-            } uppercase max-w-max mx-auto`}
+            onClick={() => setMobileNav(false)}
+            className={`${pathname === link.href && "border-b-2 border-accent-100"
+              } uppercase max-w-max mx-auto`}
           >
             {link.name}
           </Link>
